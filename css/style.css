@@ -1,0 +1,789 @@
+#home {
+
+    background: linear-gradient(-25deg, rgb(104, 58, 20), rgba(255, 199, 143, 0.905));
+    border: 3px rgba(112, 87, 63, 0.905);
+    border-style: solid;
+    padding: 0px 0px;
+}
+
+body::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+#drama {
+
+    background: rgba(91, 20, 104, 0.496);
+    border: 3px rgba(91, 20, 104, 0.496);
+    padding: 0px 0px;
+}
+
+#drama .copy {
+
+    color: white;
+
+}
+
+#anim{
+
+    background: linear-gradient(150deg, #ffffff5c, #00000048);
+    border: none;
+    padding: 0px 0px;
+}
+
+
+#horror{
+
+    background: linear-gradient(150deg, darkred, black);
+    border: none;
+    padding: 0px 0px;
+}
+
+#horror .copy {
+
+    color: white;
+
+}
+
+.animation {
+    animation: animate 2s linear;
+}
+
+@keyframes animate {
+
+    0% {
+        background-image: url(../img/animate1.png);
+        background-size: 100%;
+        background-position: center;
+        position: absolute;
+        right: 0px;
+        width: 1920px;
+        height: 1080px;
+        opacity: 1;
+        z-index: 2;
+    }
+
+    10% {
+        background-image: url(../img/animate2.png);
+        background-size: 100%;
+        background-position: center;
+        position: absolute;
+        right: 0px;
+        width: 1920px;
+        height: 1080px;
+        opacity: 1;
+        z-index: 2;
+    }
+
+    80% {
+        background-image: url(../img/animate2.png);
+        background-size: 150%;
+        background-position: center;
+        position: absolute;
+        right: 0px;
+        width: 1920px;
+        height: 1080px;
+        opacity: 1;
+        z-index: 2;
+    }
+    99% {
+        background-image: url(../img/animate2.png);
+        background-size: 175%;
+        background-position: center;
+        position: absolute;
+        right: 0px;
+        width: 0px;
+        height: 1080px;
+        opacity: 0;
+        z-index: -1;
+    }
+
+    100%{
+        background-image: url(../img/animate2.png);
+        background-size: 0%;
+        background-position: center;
+        position: absolute;
+        right: 0px;
+        width: 0px;
+        height: 0px;
+
+    }
+    
+}
+
+.centralbox {
+
+    position: center;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+
+    background-image: url(../img/The\ Pirate\ Port.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 256px;
+    height: 256px;
+
+}
+
+#desc {
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 5px red;
+    opacity: 1;
+
+}
+
+.desc {
+
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25px 0px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 5px red;
+    opacity: 0;
+
+}
+
+.desc:hover {
+
+    font-size: 22px;
+    opacity: 1;
+    transition: .5s ease-in;
+
+}
+
+.descbox {
+
+    background-color: #fff;
+    background-size: 100%;
+    border: 2px;
+    border-style: solid;
+    margin: 25px 300px;
+    padding: 25px;
+    width: 800px;
+    box-shadow: 7px 5px #0000006e;
+}
+
+/* MAIN */
+
+main {
+
+    width: 940px;
+    margin: 0 auto;;
+}
+
+img {
+
+    opacity: 0;
+
+}
+
+.genre h1 {
+
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1.5px #000;
+    text-shadow: 0px 0px 8px red;
+    margin: 90px 0px 0px 0px;
+}
+
+.genre h1:hover {
+
+    color: crimson;
+}
+
+#gendrama {
+
+    background-image: url(../img/Tetris.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#genanim {
+
+    background-image: url(../img/Mononoke.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#genhorror {
+
+    background-image: url(../img/incantation.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+.drama {
+
+    background-image: url(../img/drama.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.anim {
+
+    background-image: url(../img/animacao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.terror {
+
+    background-image: url(../img/terror.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+.genre {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+}
+
+.genre a {
+
+    text-decoration: none;
+}
+
+.genre li {
+
+    display: table-cell;
+    text-align: center;
+    width: 37%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px #000000;
+    border-style: solid;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 7px 5px #0000006e;
+
+}
+
+.genre li:hover {
+
+    box-shadow: 7px 15px #0000006e;
+    transition: .15s ease-in;
+}
+
+.genre li:active {
+
+    border-color: coral;
+    color: coral;
+}
+
+.genre h2 {
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke: 1px #000000;
+
+}
+
+#tetris {
+
+    background-image: url(../img/Tetris.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#tetris:hover{
+
+    background-image: url(../img/tetris-bg.gif);
+    background-size: 175%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#tetris:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#watchmen {
+
+    background-image: url(../img/watchmen.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#watchmen:hover{
+
+    background-image: url(../img/watchmen-bg.gif);
+    background-size: 175%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#watchmen:hover h2 {
+
+    
+    opacity: 1;
+}
+
+#darko {
+
+    background-image: url(../img/darko.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#darko:hover{
+
+    background-image: url(../img/darko-bg.gif);
+    background-size: 275%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#darko:hover h2 {
+
+    
+    opacity: 1;
+}
+
+#marley {
+
+    background-image: url(../img/marley.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#marley:hover{
+
+    background-image: url(../img/marley-bg.gif);
+    background-size: 275%;
+    background-position: 25%;
+    transition: 0.5s ease;
+    
+}
+
+#marley:hover h2 {
+
+    
+    opacity: 1;
+}
+
+#invisível {
+
+    background-image: url(../img/invisível.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#invisível:hover{
+
+    background-image: url(../img/invisível-bg.gif);
+    background-size: 275%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#invisível:hover h2 {
+
+    
+    opacity: 1;
+}
+
+#laranja {
+
+    background-image: url(../img/laranja.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 310px;
+}
+
+#laranja:hover{
+
+    background-image: url(../img/laranja-bg.gif);
+    background-size: 225%;
+    background-position: 75%;
+    transition: 0.5s ease;
+    
+}
+
+#laranja:hover h2 {
+
+    
+    opacity: 1;
+}
+
+#mononoke {
+
+    background-image: url(../img/mononoke.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#mononoke:hover{
+
+    background-image: url(../img/mononoke-bg.gif);
+    background-size: 225%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#mononoke:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#rango {
+
+    background-image: url(../img/rango.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#rango:hover{
+
+    background-image: url(../img/rango-bg.gif);
+    background-size: 225%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#rango:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#carretas {
+
+    background-image: url(../img/carretas.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#carretas:hover{
+
+    background-image: url(../img/carretas-bg.gif);
+    background-size: 375%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#carretas:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#akira {
+
+    background-image: url(../img/akira.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#akira:hover{
+
+    background-image: url(../img/akira-bg.gif);
+    background-size: 255.5%;
+    background-position: 45%;
+    transition: 0.5s ease;
+    
+}
+
+#akira:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#klaus {
+
+    background-image: url(../img/klaus.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#klaus:hover{
+
+    background-image: url(../img/klaus-bg.gif);
+    background-size: 255%;
+    background-position: 35%;
+    transition: 0.5s ease;
+    
+}
+
+#klaus:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#coraline {
+
+    background-image: url(../img/coraline.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#coraline:hover{
+
+    background-image: url(../img/coraline-bg.gif);
+    background-size: 200%;
+    background-position: center;
+    transition: 0.5s ease;
+    
+}
+
+#coraline:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#incantation {
+
+    background-image: url(../img/incantation.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#incantation:hover{
+
+    background-image: url(../img/incantation-bg.gif);
+    background-size: 200%;
+    background-position: center;
+    transition: 0.5s ease;
+    
+}
+
+#incantation:hover h2 {
+
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 0.75px black;
+    text-shadow: 72px crimson;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#psycho {
+
+    background-image: url(../img/psycho.jpg);
+    background-size: 130%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#psycho:hover{
+
+    background-image: url(../img/psycho-bg.gif);
+    background-size: 275%;
+    background-position: center;
+    transition: 0.5s ease;
+    
+}
+
+#psycho:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#alien {
+
+    background-image: url(../img/alien.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#alien:hover{
+
+    background-image: url(../img/alien-bg.gif);
+    background-size: 200%;
+    background-position: center;
+    transition: 0.5s ease;
+    
+}
+
+#alien:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#thing {
+
+    background-image: url(../img/thing.jpg);
+    background-size: 105%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#thing:hover{
+
+    background-image: url(../img/thing-bg.gif);
+    background-size: 350%;
+    background-position: center;
+    transition: 0.5s ease;
+    
+}
+
+#thing:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#exorcista {
+
+    background-image: url(../img/exorcista.jpg);
+    background-size: 105%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#exorcista:hover{
+
+    background-image: url(../img/exorcista-bg.gif);
+    background-size: 275%;
+    background-position: 12%;
+    transition: 0.5s ease;
+    
+}
+
+#exorcista:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#insidious {
+
+    background-image: url(../img/insidious.jpg);
+    background-size: 115%;
+    background-position: center;
+    height: 300px;
+    width: 310px;
+}
+
+#insidious:hover{
+
+    background-image: url(../img/insidious-bg.gif);
+    background-size: 350%;
+    background-position: 30%;
+    transition: 0.5s ease;
+    
+}
+
+#insidious:hover h2 {
+
+    
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.cover {
+
+    z-index: 0;
+    background-position: center;
+    margin: 20px 0px;
+    width: 300px;
+    height: 310px;
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+    
+    text-align: center;
+    background: linear-gradient(-20deg, rgb(104, 58, 20), rgba(255, 199, 143, 0.905));
+    border: 3px rgba(112, 87, 63, 0.905);
+    border-style: solid;
+    padding: 40px 0;
+
+}
+
+.copy {
+    
+    color: #000000;
+    font-size: 14px;
+    margin: 20px 0;
+
+}
+
+.img {
+
+    background-image: url(../img/The\ Pirate\ Port.png);
+    height: 123px;
+    width: 123px;
+    background-size: 100%;
+    
+}
